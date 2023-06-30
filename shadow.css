@@ -1,0 +1,25 @@
+
+h1
+{
+    text-shadow: 3px 3px;
+    text-shadow: 3px 3px red;
+    /* add blur */
+    /* horivetical blur color */
+    text-shadow: 3px  3px 3px red;
+    text-shadow: 3px  3px 3px red,30px  3px 3px green;
+
+
+}
+
+/* Box shadow */
+.boxShadow
+{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    box-shadow: 10px 10px 10px green;
+    color: red;
+    /* Border using shadow */
+    box-shadow: 1px 1px 1px green,-1px -1px 1px green;
+
+}
