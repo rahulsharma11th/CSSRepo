@@ -1,0 +1,39 @@
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+/* relativeis used w.r.t left,right,top,bottom */
+/* positiion from its normal psostioning */
+#relative{
+    position: relative;
+    left: 30px;
+    top: 30px;
+}
+
+/* w.r.t to browseer window postion become fixed */
+
+#fixed{
+    position: fixed;
+}
+
+/* psotion is relative to nearset placed non-static ancestor*/
+/* if no parent then w.r.t body */
+#absolute{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+
+.wrapper{
+
+    width: 100vw;
+    height:2000px ;
+    background-color: yellow;
+
+}

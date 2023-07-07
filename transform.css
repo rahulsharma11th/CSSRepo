@@ -1,0 +1,41 @@
+
+div {
+
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+
+}
+
+/* 2d transform */
+.transformBox{
+   width: 300px;
+    background-color: aqua;
+    transform: translate(10px,20px);
+    /* transform x */
+    transform: translateX(50px);
+
+    transform: rotate(45deg);
+
+    /* scale horizontal and vetical */
+    /* transform: scale(2,2); */
+
+    transform: skew(20deg);
+
+
+}
+
+/* 3d transform */
+
+
+.translated{
+
+    transform: perspective(100px) translateZ(-20px);
+}
+
+.scaled {
+transform: perspective(110px) scaleZ(2)  rotateX(45deg) rotateX(30deg);
+}
+
+
