@@ -1,0 +1,59 @@
+.container {
+display: flex;
+height: 500px;
+border: 2px solid green;
+/* flex-direction: row; */
+
+/* to intact width of child */
+flex-wrap: wrap;
+
+/* alignment in main axis */
+justify-content:space-evenly;
+justify-content:space-between;
+justify-content: space-evenly;
+
+/* cross axis */
+align-items: flex-start;
+align-items: center;
+
+/* by default strech */
+align-items: stretch;
+align-items: baseline;
+
+justify-content: center;
+align-items: center;
+
+
+/* gap */
+/* gap: 10px; */
+}
+
+
+
+/* Flex Item props */
+/* order,flex-grow,flex-basis,flex,align-self,flex-shrink */
+
+.box{
+    border: 2px solid black;
+    width: 140px;
+    /* flex-grow: 1;
+    flex-shrink: 1; */
+
+    flex-basis: 100px;
+}
+
+
+#box1{
+
+    order: 40;
+}
+
+#box2{
+
+    order: 4;
+}
+
+#box3{
+
+    order: 4;
+}
